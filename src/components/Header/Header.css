@@ -1,0 +1,49 @@
+nav{
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: var(--color2);
+  color: var(--color1);
+}
+
+.nav-left {
+  flex: 1;
+  text-transform: uppercase;
+}
+
+.nav-left ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.nav-left ul li {
+  list-style: none;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+.nav-middle {
+  margin: 0 2rem;
+  font-size: 3rem;
+}
+
+
+.nav-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+
+
